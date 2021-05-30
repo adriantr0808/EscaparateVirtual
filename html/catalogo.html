@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/406a1033a0.js" crossorigin="anonymous"></script>
+
+
+
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    </head>
+
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="../css/catalogo.css">
+</head>
+<body class="animate__animated animate__fadeIn">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <div class="container">
+
+      <a class="navbar-brand l-2" href="../html/index.html" style="font-size: 25px;">City Walk<i
+          class="fas fa-city text-light mx-2"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+
+        <nav class="navbar-nav navbar-light  justify-content-between ml-auto">
+
+          <form class="form-inline">
+            <input class="form-control mr-sm-2 nav-item" type="search" placeholder="Buscar" aria-label="Search"
+              id="inputSearch">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" id="botonSearch">Buscar</button>
+            <button class="btn btn-outline-danger my-2 my-sm-0 ml-1" type="button" id="botonImagen"> <i
+                class="fa fa-microphone" style="color:white;" aria-hidden="true"></i></button>
+
+          </form>
+        </nav>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="textLogin">Iniciar sesión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  style="width: 3em;" href="../html/carrito.html"><i class="fa fa-shopping-basket"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="conectado"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <div class="container pt-4 mt-4">
+  
+        <div class="row">
+          <div class="fondo  pb-2 ml-3 mt-4  w-40 border rounded tallas ">
+          <div class="col-lg-5">
+    
+            <h1 class="my-4 text-light ">Tallas</h1>
+         
+                <table>
+                    <tr>
+                   <td>
+                    <a href="#" class="fondoMenu bg-dark border rounded mb-2">36</a>
+                   </td>
+                   <td>
+                    <a href="#" class="fondoMenu bg-dark border rounded mb-2">37</a>
+                   </td>
+                   <td>
+                    <a href="#" class="fondoMenu bg-dark border rounded">38</a>
+                   </td>
+                  
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded mb-2">39</a>
+                       </td>
+                       <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded mb-2">40</a>
+                       </td>
+                       <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded">41</a>
+                       </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded mb-2">42</a>
+                       </td>
+                       <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded mb-2">43</a>
+                       </td>
+                       <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded">44</a>
+                       </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded mb-2">45</a>
+                       </td>
+                       <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded mb-2">46</a>
+                       </td>
+                       <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded">47</a>
+                       </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded mb-2">48</a>
+                       </td>
+                       <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded mb-2">49</a>
+                       </td>
+                       <td>
+                        <a href="#" class="fondoMenu bg-dark border rounded">50</a>
+                       </td>
+                </tr>
+               
+                </table>
+              
+           
+       
+      
+    
+          </div>
+          </div>
+          
+    
+          <div class="col-lg-7">
+            <div class="fondo my-4 p-3 border rounded novedades">
+                <h1 class="text-light text-center">Deportes</h1>
+                <div class="row d-flex justify-content-center" id="dep">
+            
+                  
+                    <!--Aquí se cargan las imagenes de zapatillas de deporte en el catálogo-->
+          </div>
+        </div>
+        <div class="fondo mb-3 p-3 border rounded ofertas">
+        <h1 class="text-light text-center ">Street</h1>
+        <div class="row" id="calle">
+
+        </div>
+        
+
+        <!-- /.row -->
+      </div>
+    
+            
+    
+              
+    
+              
+    
+              
+    
+            </div>
+          
+          </div>
+          <!-- /.col-lg-9 -->
+    
+       
+        <!-- /.row -->
+    
+      </div>
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Ayuda</h5>
+    
+              <ul class="list-unstyled mb-1">
+                <li>
+                  <a href="generic.html" class="text-white">Contacto</a>
+                </li>
+                <li>
+                  <a href="generic.html" class="text-white">Aviso Legal</a>
+                </li>
+                <li>
+                  <a href="generic.html" class="text-white">Sobre nosotros</a>
+                </li>
+                <li>
+                  <a href="generic.html" class="text-white">Privacidad del sitio</a>
+                </li>
+                <li>
+                  <a href="generic.html" class="text-white">Condiciones de uso</a>
+                </li>
+                <li>
+                  <a href="generic.html" class="text-white">Condiciones de venta</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-1">Redes sociales</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="generic.html" class="text-dark" style="font-size:2em;"><i class="fa fa-instagram text-light "></i></a>
+                </li>
+                <li>
+                  <a href="generic.html" class="text-dark" style="font-size:2em;"><i class="fa fa-facebook text-light"></i></a>
+                </li>
+                <li>
+                  <a href="generic.html" class="text-dark" style="font-size:2em;"><i class="fa fa-twitter text-light"></i></a>
+                </li>
+               
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+    
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-1">Politicas de cookies</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="generic.html" class="text-white">Configuracion de cookies</a>
+                </li>
+                <li>
+                  <a href="generic.html" class="text-white">Cookies</a>
+                </li>
+    
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2021 Copyright:
+          <a class="text-white" href="generic.html">CityWalk.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+<script>
+  var valor = localStorage.getItem("valor");
+
+  if (valor == null) {
+    $('#textLogin').html("Iniciar Sesión");
+    $('#textLogin').attr('href', '../html/login.html');
+  } else {
+    $('#textLogin').html("Cerrar Sesión");
+    $('#textLogin').attr('href', '#');
+    $('#conectado').html("Hola " + localStorage.getItem("nombreUsu") + "!")
+    $('#textLogin').on("click", function () {
+      $('#conectado').html('');
+      localStorage.removeItem("valor");
+      $('#textLogin').html("Iniciar Sesión");
+
+      location.reload();
+
+      alert("Sesión cerrada con éxito! :)")
+
+    });
+
+
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="../js/catalogo.js" charset="utf-8"></script>
+</html>

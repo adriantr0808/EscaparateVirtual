@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Walk | Cart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/406a1033a0.js" crossorigin="anonymous"></script>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="../js/carrito.js" charset="utf-8"></script>
+    <script src="../js/script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../css/carrito.css">
+
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    </head>
+   
+    
+</head>
+
+
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <div class="container">
+    
+          <a class="navbar-brand l-2" href="../html/index.html" style="font-size: 25px;">City Walk<i
+              class="fas fa-city text-light mx-2"></i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+    
+            <nav class="navbar-nav navbar-light  justify-content-between ml-auto">
+    
+              <form class="form-inline">
+                <input class="form-control mr-sm-2 nav-item" type="search" placeholder="Buscar" aria-label="Search"
+                  id="inputSearch">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" id="botonSearch">Buscar</button>
+                <button class="btn btn-outline-danger my-2 my-sm-0 ml-1" type="button" id="botonImagen"> <i
+                    class="fa fa-microphone" style="color:white;" aria-hidden="true"></i></button>
+    
+              </form>
+            </nav>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" id="textLogin">Iniciar sesión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  style="width: 3em;" href="../html/carrito.html"><i class="fa fa-shopping-basket"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="conectado"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container mt-5 pt-5">
+        <div class="row mb-4">
+            <div class=" col-lg-8 col-md-8 h-25 ">
+                <div class="card">
+                    <div class="card-body pb-1">
+                        <p class="text-danger font-weight-bold">Envio gratuito para miembros.</p>
+                        <p>Hazte City Walker para conseguir envíos rápidos y gratuitos.<a href="../html/generic.html"> Únete a nosotros</a>
+                            o <a href="../html/login.html">Inicia sesión</a></p>
+                    </div>
+                </div>
+
+
+                <section class="shopping-cart mt-3">
+                    <div class="container">
+                        <h1 class="text-center">CESTA</h1>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="shopping-cart-header">
+                                    <h6>Producto</h6>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="shopping-cart-header">
+                                    <h6 class="text-truncate">Precio</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="shopping-cart-header">
+                                    <h6>Eliminar</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- div donde se agregan los productos añadidos al carrito -->
+                        <div class="shopping-cart-items shoppingCartItemsContainer">
+                        </div>
+                     
+                        <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Pronto recibirá su pedido</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+            
+            
+                    </div>
+            
+                </section>
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 pl-5 w-50 h-25  ">
+                <h1 class="my-4 text-dark">Resumen</h1>
+                <div class="list-group ">
+                    <div class="row">
+                        <p>¿Tienes código promocional?</p>
+
+                    </div>
+                   
+                    <div class="row">
+                        <p>Total</p>
+                        <hr>
+                        
+                        <p class="precio"><span id="precioF">0.00</span>€</p>
+                    </div>
+                    <div class="row">
+                        <button type="button" class=" w-100 p-3 purchase shadow-pop-tr " data-target="#comprarModal" data-toggle="modal">Pasar por caja</button>
+                        <button type="button" class=" w-100 p-3 bg-danger mt-3 vaciarCesta" id="vaciarCesta">Vaciar cesta</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+  <footer class="bg-dark text-center text-white pie">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Ayuda</h5>
+
+          <ul class="list-unstyled mb-1">
+            <li>
+              <a href="generic.html" class="text-white">Contacto</a>
+            </li>
+            <li>
+              <a href="generic.html" class="text-white">Aviso Legal</a>
+            </li>
+            <li>
+              <a href="generic.html" class="text-white">Sobre nosotros</a>
+            </li>
+            <li>
+              <a href="generic.html" class="text-white">Privacidad del sitio</a>
+            </li>
+            <li>
+              <a href="generic.html" class="text-white">Condiciones de uso</a>
+            </li>
+            <li>
+              <a href="generic.html" class="text-white">Condiciones de venta</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-1">Redes sociales</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="generic.html" class="text-dark" style="font-size:2em;"><i class="fa fa-instagram text-light "></i></a>
+            </li>
+            <li>
+              <a href="generic.html" class="text-dark" style="font-size:2em;"><i class="fa fa-facebook text-light"></i></a>
+            </li>
+            <li>
+              <a href="generic.html" class="text-dark" style="font-size:2em;"><i class="fa fa-twitter text-light"></i></a>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-1">Politicas de cookies</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="generic.html" class="text-white">Configuracion de cookies</a>
+            </li>
+            <li>
+              <a href="generic.html" class="text-white">Cookies</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2021 Copyright:
+      <a class="text-white" href="generic.html">CityWalk.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</body>
+<script>
+    var valor = localStorage.getItem("valor");
+  
+    if (valor == null) {
+      $('#textLogin').html("Iniciar Sesión");
+      $('#textLogin').attr('href', '../html/login.html');
+    } else {
+      $('#textLogin').html("Cerrar Sesión");
+      $('#textLogin').attr('href', '#');
+      $('#conectado').html("Hola " + localStorage.getItem("nombreUsu") + "!")
+      $('#textLogin').on("click", function () {
+        $('#conectado').html('');
+        localStorage.removeItem("valor");
+        $('#textLogin').html("Iniciar Sesión");
+  
+        location.reload();
+  
+        alert("Sesión cerrada con éxito! :)")
+  
+      });
+  
+  
+    }
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+
+</html>

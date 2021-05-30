@@ -1,0 +1,22 @@
+@font-face{
+    font-family:Bebas Neue;
+    src:url(BebasNeue-Regular.ttf);
+  }
+
+
+  body{ 
+    font-family: Bebas Neue;
+    font-size: 17px;
+
+
+  }
+
+  #caja {
+
+    justify-content: center;
+    display: flex;
+  }
+
+  body{
+    background-color: rgb(184,190,197);
+  }

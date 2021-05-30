@@ -1,0 +1,131 @@
+[
+    {
+        "tipo": "novedades",
+        "ruta": "../img/pexels-bogdan-glisik-1698359.jpg",
+        "titulo": "Nike Ambitious",
+        "precio": "69.99",
+        "des": "Inspiradas en el look clásico de baloncesto, las Nike Ambitious cuentan con una parte superior de piel y una zona del tobillo de corte bajo para ofrecer comodidad y durabilidad. Confección en autoclave que une la suela exterior con la mediasuela para un look estilizado."
+    },
+    {
+        "tipo": "novedades",
+        "ruta": "../img/nikeegypt.jpg",
+        "titulo": "Air Max Exosense ",
+        "precio": "109.99",
+        "des": "Para un look streetwear moderno, adopte las nuevas Air Max Exosense que renuevan a su manera la icónica silueta Air Max. Ligeras y flexibles, estas zapatillas deportivas combinan el rojo y el negro, una mezcla de colores eficaz que resaltará toda su ropa, en el campo y fuera."
+    },
+    {
+        "tipo": "novedades",
+        "ruta": "../img/asicsverde.jpg",
+        "titulo": "Asics Gel Nimbus",
+        "precio": "56.00",
+        "des": "Las zapatillas ASICS GEL-Nimbus 23 siguen ofreciendo un excelente confort y absorción de impactos en grandes distancias. Su estabilidad mejorada garantiza una pisada más equilibrada que se complementa con transiciones más fluidas"
+    },
+    {
+        "tipo": "ofertas",
+        "ruta": "../img/coverseblack.jpg",
+        "titulo": "Converse Black",
+        "precio": "49.99",
+        "oferta": "59.99",
+        "des": "Las Chuck Taylor All Star de corte alto son las sneakers más legendarias del mundo, identificables por su inconfundible silueta, el parche del tobillo con la estrella en el centro y la autenticidad cultural que representan. Y como sucede con todo lo bueno, mejoran con el tiempo."
+    },
+    {
+        "tipo": "ofertas",
+        "ruta": "../img/jordan.jpg",
+        "titulo": "Air Jordan",
+        "precio": "79.99",
+        "oferta": "89.99",
+        "des": "El Air Jordan 1 es una de las zapatillas más vendidas de Nike en relación con la practica del baloncesto, desde sus orígenes siempre ha destacado por su gran versatilidad sobre la pista de basket. Adaptándose a diversos estilos de juegos y deslumbrando por su calidad"
+    },
+    {
+        "tipo": "ofertas",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99.99",
+        "oferta": "150.00",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "deportes",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99.99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "deportes",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99.99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "deportes",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99.99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "deportes",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99.99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "deportes",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99.99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "deportes",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99,99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "street",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99,99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "street",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99,99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "street",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99,99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "street",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99,99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "street",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99,99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    },
+    {
+        "tipo": "street",
+        "ruta": "../img/caiman.jpg",
+        "titulo": "Adidas yeezy powerphase",
+        "precio": "99,99",
+        "des": "Adidas Yeezy Powerphase 'Calabasas' - Cg6420 - Zapatos"
+    }
+]
